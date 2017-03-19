@@ -30215,8 +30215,7 @@ element.style {
 .img-responsive {
     margin: 0 auto;
 }
-
-.page-header.page-header--transparent {
+.page-header--transparent {
     background: white;
     position: fixed;
     z-index: 100000000000;
@@ -30224,3 +30223,25 @@ element.style {
   -moz-box-shadow: 0 4px 6px -6px #222;
   box-shadow: 0 4px 6px -6px #222;
 }
+@media screen and (max-width: 991px)
+{
+#sidebarMenu {
+    display: block !important;
+    z-index: 10000000;
+}}
+@media screen and (max-width: 991px)
+{
+#mobMenuToggle {
+    display: block !important;
+    z-index: 100000000;
+
+
+}}
+
+@media screen and (max-width: 991px)
+{styles.css:29506
+}.sideBar--is-open .humburger li {
+    background: #8d99a5;
+}}
+
+

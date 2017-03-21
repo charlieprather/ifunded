@@ -1,3 +1,53 @@
+
+#carousel-example-generic {
+  margin: 20px auto;
+  width: 64vw;
+}
+
+#carousel-custom {
+  margin: 20px auto;
+  width: 64vw;
+}
+
+#carousel-custom .carousel-indicators {
+  margin: 10px 0 0;
+  overflow: auto;
+  position: static;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#carousel-custom .carousel-indicators li {
+  background-color: transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: auto;
+  margin: 0 !important;
+  width: auto;
+}
+
+#carousel-custom .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#carousel-custom .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#carousel-custom .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+#carousel-custom .carousel-outer {
+  position: relative;
+}
+
+
+
+
 .ns-box {
 	position: fixed;
 	background: rgba(42, 45, 50, 0.85);
@@ -15124,33 +15174,7 @@ a.submBtn:hover, a.submBtn:focus, a.submBtn:active {
 	color: #8d99a5;
 	font-weight: 600
 }
-.projectCards__carousel .percent-block, .projectsList .percent-block {
-	text-align: center;
-	height: 35px;
-	border-radius: 33px;
-	background-color: #d8dfe4;
-	color: #fff;
-	font-size: 24px;
-	font-weight: 700;
-	position: relative;
-	line-height: 37px;
-	overflow: hidden;
-	z-index: 2
-}
-.projectCards__carousel .percent-block span, .projectsList .percent-block span {
-	position: absolute;
-	display: block;
-	width: 100%
-}
-.projectCards__carousel .percent-block span.progress, .projectsList .percent-block span.progress {
-	top: 0;
-	left: 0;
-	height: 100%;
-	background-color: rgba(58, 191, 191, 0.7)
-}
-.projectCards__carousel .percent-block span.progress__text, .projectsList .percent-block span.progress__text {
-	z-index: 3
-}
+
 .projectsList .percent-block sup {
 	font-size: 11px;
 	position: absolute;
@@ -21967,46 +21991,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 		margin-bottom: 60px
 	}
 }
-.carousel {
-	margin-top: 0;
-	margin-bottom: 80px
-}
-.carousel__img {
-	width: 100%;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px
-}
-.carousel__itemTitle {
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 26px;
-	color: #62697f;
-	padding-top: 18px;
-	margin: 0 auto;
-	text-align: center
-}
-.carousel__itemDescr {
-	display: block;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 19px;
-	color: #8d99a5;
-	text-align: center
-}
-.carousel__container {
-	margin-bottom: 80px
-}
-@media screen and (min-width:992px) {
-	.carousel__container .bx-viewport {
-		padding-left: 7px !important
-	}
-}
-@media screen and (max-width:991px) {
-	.carousel__container .bx-viewport {
-		padding-left: 25px !important
-	}
-}
+
+
 .projectCards {
 	position: relative
 }
@@ -22018,11 +22004,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 	text-align: center;
 	margin: 0 auto 50px
 }
-.projectCards__carousel {
-	max-height: 780px;
-	margin: 0;
-	overflow: hidden
-}
+
 .projectCards__card {
 	background: white;
 	position: relative;
@@ -22381,9 +22363,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 		margin-bottom: 50px
 	}
 }
-.headerBunnerSlider__carousel {
-	margin: 0
-}
+
 .headerBunnerSlider__imgCont {
 	width: 100%
 }
@@ -23449,11 +23429,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 		padding-bottom: 16px
 	}
 }
-@media screen and (max-width:510px) {
-	.row.projectCards__carousel>div {
-		padding: 0
-	}
-}
+
 @media screen and (max-width:767px) {
 	.projectCards.projectCards_type1 .projectsCard .block1 {
 		height: 180px
@@ -23464,10 +23440,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 	.bx-wrapper .bx-next {
 		right: 9px !important;
 		top: 38% !important
+				z-index: 1000;
+
 	}
+
+	.bx-wrapper {
+    z-index: 100000;
+}
+
 	.bx-wrapper .bx-prev {
 		left: 9px !important;
 		top: 38% !important
+		z-index: 1000;
 	}
 	.link-page {
 		font-size: 17px
@@ -25578,46 +25562,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f7f8', end
 		margin-bottom: 60px
 	}
 }
-.carousel {
-	margin-top: 0;
-	margin-bottom: 80px
-}
-.carousel__img {
-	width: 100%;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px
-}
-.carousel__itemTitle {
-	font-weight: 300;
-	font-size: 20px;
-	line-height: 26px;
-	color: #62697f;
-	padding-top: 18px;
-	margin: 0 auto;
-	text-align: center
-}
-.carousel__itemDescr {
-	display: block;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 19px;
-	color: #8d99a5;
-	text-align: center
-}
-.carousel__container {
-	margin-bottom: 80px
-}
-@media screen and (min-width:992px) {
-	.carousel__container .bx-viewport {
-		padding-left: 7px !important
-	}
-}
-@media screen and (max-width:991px) {
-	.carousel__container .bx-viewport {
-		padding-left: 25px !important
-	}
-}
 .preload-hide {
 	display: block !important
 }
@@ -25987,9 +25931,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f7f8', end
 		margin-bottom: 50px
 	}
 }
-.headerBunnerSlider__carousel {
-	margin: 0
-}
+
 .headerBunnerSlider__imgCont {
 	width: 100%
 }
@@ -27696,9 +27638,7 @@ input[disabled] {
 	position: absolute;
 	top: 0
 }
-.headerBunnerSlider__slide, .headerBunnerSlider__carousel {
-	overflow: hidden
-}
+
 .headerBunner__textCont {
 	text-shadow: 4px 4px 4px #62697f
 }
@@ -28194,7 +28134,11 @@ form#investment2 div.formItemContent>iframe {
 	bottom: -10px !important
 }
 .bx-wrapper {
-	overflow: hidden
+	overflow: hidden;
+	z-index: 1000;
+	padding-bottom: 100px;
+	max-width: 1000px; 
+	margin: 0px auto;
 }
 a.projectCardBtn {
 	display: inline-block;
@@ -28757,10 +28701,17 @@ section.eBookDownload ul.advantages .icon {
 	min-height: 568px;
 	overflow: hidden;
 	z-index: 0;
-	-webkit-transform: translate3D(0, 0, 0);
-	transform: translate3D(0, 0, 0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden
+ background: url("http://res.cloudinary.com/dqle7rqpy/image/upload/v1489692831/room_au9rnw.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+     background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   position: static;
 }
 .hero__content {
 	position: absolute;
@@ -28799,6 +28750,11 @@ section.eBookDownload ul.advantages .icon {
 	transform: translateX(-50%) translateY(-50%);
 	z-index: -1000;
 	overflow: hidden
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 .hero.hero--video .hero__video-overlay {
 	height: 100%;
@@ -28845,6 +28801,11 @@ section.eBookDownload ul.advantages .icon {
 	-webkit-transition: fill .2s ease-out;
 	-o-transition: fill .2s ease-out;
 	transition: fill .2s ease-out
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 .hero.hero--video .hero__content .cta:hover {
 	background-color: #3abfbf
@@ -28875,6 +28836,11 @@ section.eBookDownload ul.advantages .icon {
 	-moz-transition: opacity .3s ease-in, color .2s ease-in;
 	-o-transition: opacity .3s ease-in, color .2s ease-in;
 	transition: opacity .3s ease-in, color .2s ease-in
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 }
 .hero.hero--video .hero__arrow-down.show {
 	opacity: 1;
@@ -29937,10 +29903,20 @@ body>div.content.sideBar--is-open .humburger>li:nth-child(3) {
 }
 .page-header.page-header--transparent .page-header__navigation-item a {
 	color: #464e50;
+    margin-top: 0px;
+">
 }
 .page-header.page-header--transparent .page-header__navigation-item a:hover {
 	color: #35c1c1;
+    margin-top: 0px;
+"
 }
+
+.page-header .page-header--transparent{
+
+    margin-top: 0px;
+}
+
 .hero.hero--video .hero__headline h1 {
 	font-size: 45px;
 	margin: 23% 10% 0% 10%;
@@ -30298,5 +30274,42 @@ h3{
        } 
     }
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+     background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (min-width: 768px){  
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -100%;
+}}
+
+.glyphicon-chevron-left:before {
+    content: none;
+}
+
+.glyphicon-chevron-right:before {
+    content: none;
+}
+
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -100%;
+}}
 
 
+#carousel-custom .carousel-outer {
+    position: relative;
+    z-index: 100000;
+}
+
+
+#carousel-custom {
+    margin: 8% auto;
+    width: 64vw;
+}

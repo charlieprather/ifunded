@@ -337,8 +337,10 @@
 
         
     </div>
-        <section class="hero">
-                  
+        <section class="hero hero--video">
+            <div class="hero__video-overlay"></div>
+                    <img class="backImg" src="http://res.cloudinary.com/dqle7rqpy/image/upload/v1489692831/room_au9rnw.jpg" style="position:static; align:center;">
+                
             </div>
            
     
@@ -477,16 +479,10 @@
 
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-custom" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="13" viewBox="0 0 23 13">
-  <image width="23" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAQAAADobj3WAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhAxUUHhTkH1/0AAAAS0lEQVQoz2P4zwCDDGwMvQgedoiseA6DDpHKiVMMVU6s4v8MJCn+z0CS4v8MjAylDH4MZxiIA4tJNJ1Ut5McMiSHO8mxCtUwgZByAFpn/HdSlYAbAAAAAElFTkSuQmCC"/>
-</svg>
-</span>
+      <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
     <a class="right carousel-control" href="#carousel-custom" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="13" viewBox="0 0 23 13">
-  <image width="23" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAQAAADobj3WAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfhAxUUKyaO+czCAAAAVklEQVQoz2P4z4AfMnQx8CPxCCqXZliC0EBQOaoGIpQjayBKOUIDkcphGhgZNBnSGIgDWgyXiTddmWEhAxdJiokNGahi4sIdrpiYWEVSTIzyHoTi/wwAhzH717JE9ikAAAAASUVORK5CYII="/>
-</svg>
-</span>
+      <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
   </div>
 
@@ -896,7 +892,188 @@ Sie interessieren sich für diese Immobilie, haben Fragen zur Finanzierung oder 
     
 </footer>
 
+<style>
+    .fancybox-wrap.ebook-popup-wrap,
+    .fancybox-wrap.ebook-popup-wrap .fancybox-inner {
+        min-height: 730px;
+    }
+</style>
+<div class="ebook-popup" id="ebook-popup" style="display: none">
+    <h4 class="ebook-popup__supTitle">Free eBook</h4>
+    <h3 class="ebook-popup__title">How to increase the return on your investments</h3>
 
+    <div class="ebook-popup__ebook"></div>
+
+    <ul class="ebook-popup__list">
+        <li class="ebook-popup__item">
+            <svg version="1.1" width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23.8 22.9" style="enable-background:new 0 0 23.8 22.9;" xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#FFFFFF;}
+                </style>
+                <path class="st0" d="M8.8,16.1l0.3-0.4L19.2,0.7C19.4,0.2,20,0,20.5,0c0.2,0,0.5,0.1,0.7,0.3c0.6,0.4,1.2,0.8,1.9,1.2
+        c0.6,0.3,0.9,1.1,0.5,1.8c0,0.1-0.1,0.2-0.2,0.2L12.5,19.7c-0.5,0.7-1,1.5-1.5,2.2c-0.4,0.7-1.1,1.1-1.9,1c-0.5-0.1-1-0.4-1.4-0.8
+        l-7.2-7.3c-0.6-0.4-0.6-1.2-0.2-1.8c0.1-0.1,0.1-0.1,0.2-0.2l1.7-1.6c0.5-0.6,1.3-0.6,1.8-0.2c0.1,0.1,0.1,0.1,0.2,0.2l4.4,4.5
+        C8.7,15.8,8.7,15.9,8.8,16.1z"></path>
+            </svg>
+            Achieve more with limited resources
+        </li>
+        <li class="ebook-popup__item">
+            <svg version="1.1" width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23.8 22.9" style="enable-background:new 0 0 23.8 22.9;" xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#FFFFFF;}
+                </style>
+                <path class="st0" d="M8.8,16.1l0.3-0.4L19.2,0.7C19.4,0.2,20,0,20.5,0c0.2,0,0.5,0.1,0.7,0.3c0.6,0.4,1.2,0.8,1.9,1.2
+        c0.6,0.3,0.9,1.1,0.5,1.8c0,0.1-0.1,0.2-0.2,0.2L12.5,19.7c-0.5,0.7-1,1.5-1.5,2.2c-0.4,0.7-1.1,1.1-1.9,1c-0.5-0.1-1-0.4-1.4-0.8
+        l-7.2-7.3c-0.6-0.4-0.6-1.2-0.2-1.8c0.1-0.1,0.1-0.1,0.2-0.2l1.7-1.6c0.5-0.6,1.3-0.6,1.8-0.2c0.1,0.1,0.1,0.1,0.2,0.2l4.4,4.5
+        C8.7,15.8,8.7,15.9,8.8,16.1z"></path>
+            </svg>
+            How to increase your return on investments
+        </li>
+        <li class="ebook-popup__item">
+            <svg version="1.1" width="25px" height="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23.8 22.9" style="enable-background:new 0 0 23.8 22.9;" xml:space="preserve">
+            <style type="text/css">
+                .st0{fill:#FFFFFF;}
+            </style>
+                <path class="st0" d="M8.8,16.1l0.3-0.4L19.2,0.7C19.4,0.2,20,0,20.5,0c0.2,0,0.5,0.1,0.7,0.3c0.6,0.4,1.2,0.8,1.9,1.2
+        c0.6,0.3,0.9,1.1,0.5,1.8c0,0.1-0.1,0.2-0.2,0.2L12.5,19.7c-0.5,0.7-1,1.5-1.5,2.2c-0.4,0.7-1.1,1.1-1.9,1c-0.5-0.1-1-0.4-1.4-0.8
+        l-7.2-7.3c-0.6-0.4-0.6-1.2-0.2-1.8c0.1-0.1,0.1-0.1,0.2-0.2l1.7-1.6c0.5-0.6,1.3-0.6,1.8-0.2c0.1,0.1,0.1,0.1,0.2,0.2l4.4,4.5
+        C8.7,15.8,8.7,15.9,8.8,16.1z"></path>
+            </svg>
+            Sample calculations for all investor types
+        </li>
+    </ul>
+
+    <p class="ebook-popup__text1">
+        Sign up for our newsletter now and receive your free ebook
+    </p>
+
+    
+    <form name="subscription_form" method="post" action="/subscribe" id="ebook-modal_subscribe4news" class="ebook-popup__form" data-request="ajax" data-noscroll="1" data-nosuccess="1">
+
+    <div class="row">
+        <div class="col-xs-6" style="padding-right: 5px">
+            <input type="text" id="subscription_form_firstName" name="subscription_form[firstName]" required="required" placeholder="Name" data-message="Please enter your first name" class="inpField inpField-name ebook-popup__firstname">
+        </div>
+        <div class="col-xs-6" style="padding-left: 5px">
+            <input type="text" id="subscription_form_lastName" name="subscription_form[lastName]" required="required" placeholder="Surname" data-message="Please enter your surname" class="inpField inpField-lastname ebook-popup__lastname">
+        </div>
+        <input type="hidden" id="subscription_form_list_id" name="subscription_form[list_id]" required="required" value="promo_ebook">
+        <div class="col-xs-12">
+            <input type="email" id="subscription_form_email" name="subscription_form[email]" required="required" placeholder="Your email address" data-message="The format is not valid. Your e-mail address should contain @ character." class="inpField inpField-mail ebook-popup__email">
+        </div>
+        <div class="col-xs-24">
+            <input type="submit" id="ebook-modal_subscribeSubmitBtn" class="ebook-popup__submit submBtn" value="SEND eBOOK">
+        </div>
+    </div>
+
+    <input type="hidden" id="subscription_form__token" name="subscription_form[_token]" value="CrlYq3R0xvRnILfuu-gbib698f3e0Bwy-QqX-mNaGcA"></form>
+
+    <p class="ebook-popup__text2">We categorically reject spam mail and will not burden your mailbox with it.</p>
+
+</div>
+
+<script type="text/javascript">
+    var subscribeRedirectUrl = '/en/free-ebook-guide';
+</script>
+<div class="popup-callback">
+    <div id="callbackNotifyWrapper"></div>
+    <div id="incomeCall" class="incomeCall" style="display: none">
+        <h3 class="title-callback">Got a question?<br>Talk with us direct.</h3>
+
+        <form name="callback_form" method="post" action="/en/contact/callback" data-request="ajax" data-notify-wrapper="callbackNotifyWrapper">
+                    <div>
+                <input type="text" id="callback_form_name" name="callback_form[name]" required="required" data-message="Enter your name" placeholder="Full Name" class="inp-callback">
+            </div>
+            <div>
+                <input type="text" id="callback_form_number" name="callback_form[number]" required="required" data-message="Enter your number" placeholder="Phone number" class="inp-callback">
+            </div>
+            <div>
+                <input type="text" id="callback_form_time" name="callback_form[time]" placeholder="Suitable Time" data-message="callback.error.time" class="inp-callback">
+            </div>
+
+            <input type="hidden" id="callback_form_subject" name="callback_form[subject]"><input type="hidden" id="callback_form_currentUrl" name="callback_form[currentUrl]">
+
+            <div><button type="submit" class="btn-callback">Request callback</button></div>
+        <input type="hidden" id="callback_form__token" name="callback_form[_token]" value="S5cokOsd9-fXeioIdrZJYC5OBprluzQ-PlkzwK16GT8"></form>
+    </div>
+</div>
+
+    <button id="session-expiry-switch" style="display: none;"></button>
+<button id="session-expiry-logout-switch" style="display: none;"></button>
+
+<div class="notificationsModule hidden" style="height: 775px;">a
+    <div class="notifyBg"></div>
+    <div class="notifyWrapper">
+        <div id="session-expiry" class="notifyblock type1 hidden">
+            <button class="closeBtn"></button>
+            <span class="notifyTitle">Attention</span>
+            <p class="bold">Your session is about to expire in <span class="login-countdown">90</span> seconds. Please click continue to keep the session active</p>
+            <button id="session-expiry-subm" class="simpleBtn">Continue</button>
+        </div>
+    </div>
+    <div id="session-expiry-logout" class="notifyblock type1 hidden">
+        <button class="closeBtn"></button>
+        <span class="notifyTitle">Attention</span>
+        <p class="bold">Sorry, you were inactive for some time. Due to the security reasons we have terminated your session. Please, login again if you want to continue.</p>
+    </div>
+</div>
+
+
+    <div class="bottom-popup" style="display: none">
+    <a class="close-popup"></a>
+    <div class="container">
+        <div class="col-md-4 bottom-popup__image">
+            <img src="https://static.ifunded.de/49d3944bb/img/ebook_en.png">
+        </div>
+        <div class="col-md-8 bottom-popup__article">
+            <artice>
+                <h4 class="bottom-popup__title">Free investor guide:</h4>
+                <h6 class="bottom-popup__subtitle">How to multiply return on your investments</h6>
+                <a id="learn_more" class="bottom-popup__cta submBtn animatedBtn">Learn more<span class="button-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="571.2 164.2 777.6 518.4" enable-background="new 571.2 164.2 777.6 518.4" xml:space="preserve">
+<title>down-arrow</title>
+<desc>Created with Sketch.</desc>
+<g>
+    <g>
+        <path fill="#FFFFFF" d="M914.1,662.1c22,27.2,63.3,27.3,85.6,0.4l336.4-407.6c19.5-23.6,16.2-58.5-7.4-78s-58.4-16.2-77.9,7.4
+            L958.4,540.8L669.5,184.6c-19.3-23.8-54.1-27.4-77.8-8.1c-23.7,19.3-27.3,54.2-8.1,78L914.1,662.1z"></path>
+    </g>
+</g>
+</svg>
+</span></a>
+            </artice>
+
+            
+            <form name="subscription_form" method="post" action="/subscribe" id="subscription-popup_subscribe4news" class="subscribeForm promo50" data-request="ajax">
+                <ul class="checkList">
+                    <li>Plus exclusive investment opportunities</li>
+                    <li>Market news and guide posts in our weekly newsletter</li>
+                </ul>
+                
+                <div class="subscribeRow">
+                    <p class="description">Subscribe to the newsletter below to get all the benefits</p>
+                    <div class="col-xs-6 col-md-3">
+                        <input type="text" id="subscription_form_firstName" name="subscription_form[firstName]" required="required" placeholder="Name" data-message="Please enter your first name" class="inpField inpField-name">
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                    <input type="text" id="subscription_form_lastName" name="subscription_form[lastName]" required="required" placeholder="Surname" data-message="Please enter your last name" class="inpField inpField-lastname">
+                    </div>
+
+                    <input type="hidden" id="subscription_form_list_id" name="subscription_form[list_id]" required="required" value="promo_ebook">
+                    <div class="col-xs-12 col-md-4">
+                        <input type="email" id="subscription_form_email" name="subscription_form[email]" required="required" placeholder="Your email address" data-message="The format is not valid. Your e-mail address should include the @ character" class="inpField inpField-mail">
+                    </div>
+                    <div class="col-xs-12 col-md-3 submit-wrapper">
+                        <input type="submit" id="subscription-popup_subscribeSubmitBtn" class="submBtn animatedBtn" value="Subscribe">
+                    </div>
+
+                </div>
+
+            <input type="hidden" id="subscription_form__token" name="subscription_form[_token]" value="CrlYq3R0xvRnILfuu-gbib698f3e0Bwy-QqX-mNaGcA"></form>
+        </div>
+    </div>
+</div>
+
+    <div id="insideContentMask" class="hidden"></div>
 
 
   <link rel="stylesheet" href="styles.css">

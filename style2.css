@@ -8,15 +8,7 @@
   margin: 20px auto;
   width: 64vw;
 }
-@media screen and (max-width: 480px) {
-    #carousel-custom {
-       width: 100%;
-    }
-}
 
-td, th {
-    padding-bottom: 2em;
-}
 #carousel-custom .carousel-indicators {
   margin: 10px 0 0;
   overflow: auto;
@@ -23574,7 +23566,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 .hidden {
 	display: none !important
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
 	.lgHide {
 		display: none !important
 	}
@@ -23585,13 +23577,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeced', end
 	}
 }
 
-
+@media screen and (max-width:1200px) {
+	.mdHide {
+		display: none !important
+	}
 @media screen and (min-width:500px) {
 	.xsShow {
 		display: none !important
 	}
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:500px) {
 	.xsShow {
 		display: initial
 	}
@@ -29926,10 +29921,6 @@ body>div.content.sideBar--is-open .humburger>li:nth-child(3) {
 
     margin-top: 0px;
 }
-.page-header {
-    
-    border-bottom: none;
-}
 
 .hero.hero--video .hero__headline h1 {
 	font-size: 45px;
@@ -30241,36 +30232,11 @@ element.style {
 
 }}
 
-
-@media  (max-width: 991px)
-{
-#carousel{
-    width: 100%;
-}}
-
-
 @media screen and (max-width: 991px)
-{
+{styles.css:29506
 }.sideBar--is-open .humburger li {
-    background: #ffffff;
-
-
-    
-}.carousel-custom {
-    width:100%;
-}}}
-
-
-
-@media screen and (min-width: 991px)
-{
-} .carousel-custom {
-    width:100%;
+    background: #8d99a5;
 }}
-
-
-
-
 
 img {
     float: right;
@@ -30318,7 +30284,6 @@ h3{
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 0px;
-
 }
 .table-striped>tbody>tr:nth-of-type(odd) {
      background-color: rgba(0, 0, 0, 0);
@@ -30343,13 +30308,6 @@ h3{
 }}
 
 
-@media screen and (max-width: 480px) {
-    .carousel {
-       width: 100%;
-    }
-}
-
-
 #carousel-custom .carousel-outer {
     position: relative;
     z-index: 100000;
@@ -30359,12 +30317,7 @@ h3{
 #carousel-custom {
     margin: 8% auto;
     width: 64vw;
-}@media screen and (max-width: 480px) {
-    .carousel #carousel-custom {
-       width: 100%;
-    }
 }
-
 
 .seven{
 
@@ -30380,9 +30333,9 @@ h3{
 
 .go-top {
     position: absolute;
-    right: 10vw;
-  top: 163vw;
-  width: 1.5vw;
+  right: 10vw;
+  top: 160vw;
+  width: 54px;
   height: 53px;
   z-index: 48;
    
@@ -30391,29 +30344,3 @@ h3{
   position: absolute; 
    font-weight:100;
 }
-
-
-
-.accordianheader {color:black; background:lightgray; padding:10px 20px; margin-top:20px; text-align: center;}
-.accordianbody {background:#f4f4f4;}
-.accordianbody ul {margin:0; list-style:none; padding:0;}
-.accordianbody ul li {padding:10px; border-bottom: 1px solid lightgrey;}
-
-i { position:absolute;
-  right: 20px;
-  top:14px;
-    -webkit-transition:all 300ms ease-in 0s;
-    -moz-transition: all 300ms ease-in 0s;
-    -o-transition: all 300ms ease-in 0s;
-  transition: all 300ms ease-in 0s;}
-
-.ui-state-active i {
-    color: #ACD4CE;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-

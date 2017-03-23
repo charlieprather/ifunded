@@ -1,9 +1,37 @@
+.col-lg-2 {
+    width: 50%;
+
+}
+
+.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50%;
+}
+
+.center-
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 0px solid #ddd;
+    border-top: none;
 }
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}
+
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid rgba(221, 221, 221, 0);
+}
 
 
 
@@ -3631,7 +3659,7 @@ hr {
 		width: 25%
 	}
 	.col-md-2 {
-		width: 16.66666667%
+		width: 50%
 	}
 	.col-md-1 {
 		width: 8.33333333%
@@ -3789,7 +3817,7 @@ hr {
 		width: 25%
 	}
 	.col-lg-2 {
-		width: 16.66666667%
+		width: 50%;
 	}
 	.col-lg-1 {
 		width: 8.33333333%
@@ -30327,7 +30355,6 @@ element.style {
 
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
     position: relative;
-    margin-top: 10px;
     min-height: 1px;
     padding-left: 0px;
     padding-right: 0px;
@@ -30459,17 +30486,14 @@ h3{
 
 .go-top {
     position: absolute;
-    right: 10vw;
+    right: 1vw;
   top: 163vw;
   width: 1.5vw;
   height: 53px;
-  z-index: 48;
+  z-index: 4800000000000;
    
 }
-.go-top:after {
-  position: absolute; 
-   font-weight:100;
-}
+
 
 
 

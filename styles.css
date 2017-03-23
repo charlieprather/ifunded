@@ -1,22 +1,146 @@
-
-#carousel-example-generic {
-  margin: 20px auto;
-  width: 64vw;
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid #ddd;
 }
 
-#carousel-custom {
-  margin: 20px auto;
-  width: 64vw;
+
+
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding-left: 10px;
 }
+
+
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+tr{
+
+	    padding-bottom: .3vw;
+
+}
+
+
+@media screen and (min-width: 900px) {
+    .table{
+  width: 64vw;
+  margin: 3px auto;
+    }
+}
+
+@media screen and (min-width: 768px){  
+    .table{
+        z-index: 10000000000000;
+  margin: 3px auto;
+
+
+}}
+
+.center-block:before {
+    content: none;
+      width: 64vw;
+
+}
+
+
+@media screen and (max-width: 768px){
+.table {
+        z-index: 10000000000000;
+        width: 100%;
+
+           margin-left: 5px;
+    margin-right: 5px;
+
+}}
+
+
+
+    .table{
+    z-index: 1000000000;
+
+  }
+
+
+    .table{
+    z-index: 1000000000;
+
+  }
+
+
 @media screen and (max-width: 480px) {
+    .table{
+       width: 100%;
+
+           margin-left: 5px;
+    margin-right: 5px;
+
+    }
+}
+
+
+
+
+@media screen and (min-width: 900px) {
     #carousel-custom {
+         margin: 20px auto;
+  width: 64vw;
+    }
+}
+
+@media screen and (min-width: 768px){  
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -100%;
+        z-index: 10000000000000;
+
+}}
+
+.glyphicon-chevron-left:before {
+    content: none;
+}
+
+.glyphicon-chevron-right:before {
+    content: none;
+}
+
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -100%;
+        z-index: 10000000000000;
+
+}}
+
+
+
+.carousel-control.left {
+    z-index: 1000000000;
+
+  }
+
+
+.carousel-control.right {
+    z-index: 1000000000;
+
+  }
+
+
+@media screen and (max-width: 480px) {
+    .carousel {
        width: 100%;
     }
 }
 
-td, th {
-    padding-bottom: 2em;
-}
+
+
+@media screen and (min-width: 900px){  
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -100%;
+    z-index: 10000000000000;
+}}
+
+
 #carousel-custom .carousel-indicators {
   margin: 10px 0 0;
   overflow: auto;
@@ -34,6 +158,14 @@ td, th {
   height: auto;
   margin: 0 !important;
   width: auto;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000000;
 }
 
 #carousel-custom .carousel-indicators li img {
@@ -55,6 +187,11 @@ td, th {
 
 
 
+   .pull-right {
+    float: right !important;
+    margin-right: 18px;
+}
+}
 
 .ns-box {
 	position: fixed;
@@ -26510,7 +26647,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f7f8', end
 		display: block
 	}
 	.bigTable__tr_active+.bigTable__tr>.bigTable__bodyTd_rowTitle {
-		border-top: 1px solid #d8dfe4
+		border-top: 1px solid #ffffff;
 	}
 }
 @media screen and (min-width:767px) {
@@ -30242,11 +30379,6 @@ element.style {
 }}
 
 
-@media  (max-width: 991px)
-{
-#carousel{
-    width: 100%;
-}}
 
 
 @media screen and (max-width: 991px)
@@ -30254,19 +30386,6 @@ element.style {
 }.sideBar--is-open .humburger li {
     background: #ffffff;
 
-
-    
-}.carousel-custom {
-    width:100%;
-}}}
-
-
-
-@media screen and (min-width: 991px)
-{
-} .carousel-custom {
-    width:100%;
-}}
 
 
 
@@ -30324,46 +30443,6 @@ h3{
      background-color: rgba(0, 0, 0, 0);
 }
 
-@media screen and (min-width: 768px){  
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-    margin-left: -100%;
-}}
-
-.glyphicon-chevron-left:before {
-    content: none;
-}
-
-.glyphicon-chevron-right:before {
-    content: none;
-}
-
-@media screen and (min-width: 768px){
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-    margin-right: -100%;
-}}
-
-
-@media screen and (max-width: 480px) {
-    .carousel {
-       width: 100%;
-    }
-}
-
-
-#carousel-custom .carousel-outer {
-    position: relative;
-    z-index: 100000;
-}
-
-
-#carousel-custom {
-    margin: 8% auto;
-    width: 64vw;
-}@media screen and (max-width: 480px) {
-    .carousel #carousel-custom {
-       width: 100%;
-    }
-}
 
 
 .seven{
@@ -30394,10 +30473,10 @@ h3{
 
 
 
-.accordianheader {color:black; background:lightgray; padding:10px 20px; margin-top:20px; text-align: center;}
+.accordianheader {color:black; background:none; padding:10px 20px; margin-top:20px; text-align: center;}
 .accordianbody {background:#f4f4f4;}
 .accordianbody ul {margin:0; list-style:none; padding:0;}
-.accordianbody ul li {padding:10px; border-bottom: 1px solid lightgrey;}
+.accordianbody ul li {padding:10px; border-bottom:none;}
 
 i { position:absolute;
   right: 20px;

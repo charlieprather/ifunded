@@ -6946,37 +6946,7 @@ IFunded Newsletter</font></font></div>
                 var topPanel = btn.parents(".topheadpanel");
                 var searchForm = topPanel.find(".searchForm");
                 var searchField = topPanel.find(".inputLine");
-                var helpText = topPanel.find(".helpText");
-                if (topPanel.hasClass("opened")) {
-                    topPanel.removeClass("opened");
-                    searchMask.addClass("animated fadeOut");
-                    searchMask.delay(500).queue(function() {
-                        searchMask.addClass("hidden").removeClass("animated fadeOut");
-                        $(this).dequeue()
-                    })
-                } else {
-                    topPanel.addClass("opened");
-                    searchMask.removeClass("hidden").addClass("animated fadeIn");
-                    searchMask.delay(500).queue(function() {
-                        searchMask.removeClass("animated fadeIn");
-                        $(this).dequeue()
-                    })
-                }
-                searchMask.click(function() {
-                    topPanel.removeClass("opened");
-                    searchMask.addClass("animated fadeOut");
-                    searchMask.delay(500).queue(function() {
-                        searchMask.addClass("hidden").removeClass("animated fadeOut");
-                        $(this).dequeue()
-                    })
-                });
-                searchField.focusin(function() {
-                    helpText.addClass("open")
-                });
-                searchField.focusout(function() {
-                    helpText.removeClass("open")
-                })
-            });
+                
             $(".searchForm").each(function(index) {
                 var searchForm = $(this);
                 var searchField = searchForm.find(".inputLine");
